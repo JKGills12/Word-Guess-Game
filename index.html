@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
 
     <title>Summer Fun!</title> 
 
@@ -23,33 +24,33 @@
     </div>
 
     <!--GAME-->
-    <div class="gametime fadeOut">
-        <h2 class="guess">Can you guess the summer word?</h2>
+<div class="container">
+    <div class="gametime">
+        <header>Can you guess the summer word?</header>>
     </div>
+    <input type="text">
+</div>
 
     <!--WORD OPTIONS-->
-    <div id="guess" class="options">
-        <p>_ _ _ _ _ _</p> <!--Summer-->
-        <p>_ _ _ _ _</p> <!--Beach-->
-        <p>_ _ _ _ _ _</p> <!--Shorts-->
-        <p>_ _ _ _ _ _ _ _ </p> <!--Swimsuit-->
-        <p>_ _ _</p> <!--Sun-->
-        <p>_ _ _</p> <!--SUP-->
-        <p>_ _ _ _ _ _</p> <!--Biking-->
-        <p>_ _ _ _ _ _</p> <!--Diving-->
-        <p>_ _ _ _ _ _ _</p> <!--Sandals-->
-        <p>_ _ _ _ _ _ _</p> <!--Tanning-->
-    </div>
-    
+    <div class="underscores">_ _ _ _ _</div>
+
     <!--SCOREBOARD-->
+    <div class="rightGuess">Wins:</div>
+    <div class="wrongGuess">Loss</div>
+    <div class="guessesLeft"># of Guesses Left</div>
+
+    
+    
+    <!--SCOREBOARD
     <div class="score">
         <p># of guesses left:</p>
         <p>Wins:</p>
         <p>Loss</p>
     </div>
+    -->
 
     <!--HINT BOX-->
-    <div id="hint" class="hint">
+    <textbox id="hint" class="hint">
         <h2>Hint:</h2>
             <p id="summer">One of four seasons...</p>
             <p id="beach">Where the sand is...</p>
@@ -61,7 +62,8 @@
             <p id="biking">Two wheeled transportation</p>
             <p id="diving">Leap into the water head first...</p>
             <p id="tanning">Adding glow to yourself...</p>
-    </div>
+    </section>
+</section>
     <script src="game.js"></script>   
     
 </body>
