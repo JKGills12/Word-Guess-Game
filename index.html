@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Summer Fun!</title>
+    
+    <link rel="stylesheet" href="/assets/css/style.css">
 
-    <link rel="stylesheet" href="style.css">
+    <title>Summer Fun!</title> 
+
 </head>
 <body>
+    <!--MAIN INTRO-->
     <section class="intro">
         <h1>Who's ready for Summer!</h1>
-        <img src="https://source.unsplash.com/1600x900/?summer" width="50%">
+        <img id=mainPic src="https://source.unsplash.com/1600x900/?summer" width="50%">
     </section>
 
+    <!--INTRO BUTTON-->
     <div class="game">
         <button>Let's Play!</button>
     </div>
 
+    <!--GAME-->
     <div class="gametime fadeOut">
         <h2 class="guess">Can you guess the summer word?</h2>
     </div>
 
+    <!--WORD OPTIONS-->
     <div id="guess" class="options">
         <p>_ _ _ _ _ _</p> <!--Summer-->
         <p>_ _ _ _ _</p> <!--Beach-->
@@ -33,10 +39,29 @@
         <p>_ _ _ _ _ _</p> <!--Diving-->
         <p>_ _ _ _ _ _ _</p> <!--Sandals-->
         <p>_ _ _ _ _ _ _</p> <!--Tanning-->
-
     </div>
     
+    <!--SCOREBOARD-->
+    <div class="score">
+        <p># of guesses left:</p>
+        <p>Wins:</p>
+        <p>Loss</p>
+    </div>
 
+    <!--HINT BOX-->
+    <div id="hint" class="hint">
+        <h2>Hint:</h2>
+            <p id="summer">One of four seasons...</p>
+            <p id="beach">Where the sand is...</p>
+            <p id="shorts">Outerwear...</p>
+            <p id="swimsuit">Waterproof "skin"</p>
+            <p id="sun">Hot natural orb...</p>
+            <p id="sandals">Footwear</p>
+            <p id="sup">Child of surfing and kayaking...</p>
+            <p id="biking">Two wheeled transportation</p>
+            <p id="diving">Leap into the water head first...</p>
+            <p id="tanning">Adding glow to yourself...</p>
+    </div>
     <script src="game.js"></script>   
     
 </body>

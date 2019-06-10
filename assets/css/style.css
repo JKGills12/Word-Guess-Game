@@ -1,7 +1,21 @@
 *{
     box-sizing: border-box;
+    overflow: hidden;
 }
 
-body{
-    background: rgb(247, 252, 188);
+body {
+    background-color:rgb(247, 247, 236);
+}
+
+.intro,
+.game{
+    padding: 10px;
+    text-align: center;
+}
+
+.gametime,
+.options,
+.score,
+.hint {
+    opacity: 0;
 }
