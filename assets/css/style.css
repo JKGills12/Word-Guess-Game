@@ -15,6 +15,10 @@ body {
     
 }
 
+#splashscreen{
+    
+}
+
 /*INTRO TITLE - PICTURE - BUTTON*/
 .intro,
 .game{
@@ -23,6 +27,7 @@ body {
     padding: 10px;
     text-align: center;
     font-family: 'Roboto Slab';
+    transition: opacity 0.5s ease;
 }
 
 /*
@@ -44,24 +49,33 @@ body {
     float: right;
     position: static;
     opacity: 0;
+    transition: opacity 0.5s ease 0.5s;
 }
+
+
 
 .underscores{
     top: 300px;
     right: 160px;
     bottom: 70px;
     position: absolute;
+    transition: opacity 0.5s ease 0.5s;
 }
 
+/*Text input box*/
 input{
     right: 100px;
     bottom: 250px;
     position: absolute;
+    transition: opacity 0.5s ease 0.5s;
 }
+
+/*Game header w/text box*/
 .gametime{
     margin-top: -300px;
     transition: opacity 0.5s ease 0.5s;
 }
+
 
 .containerBoard{
     position: absolute;
@@ -70,7 +84,7 @@ input{
     left: 120px;
     font-size: 20px;
     font-weight: bold;
-
+    transition: opacity 0.5s ease 0.5s;
 }
 
 .hint{
