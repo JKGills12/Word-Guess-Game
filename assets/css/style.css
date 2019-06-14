@@ -1,6 +1,5 @@
 *{
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 
 header{
@@ -12,12 +11,9 @@ header{
 
 body {
     background-color:rgb(247, 247, 236);
-    
+    height: 100%;
 }
 
-#splashscreen{
-    
-}
 
 /*INTRO TITLE - PICTURE - BUTTON*/
 .intro,
@@ -27,93 +23,100 @@ body {
     padding: 10px;
     text-align: center;
     font-family: 'Roboto Slab';
-    transition: opacity 0.5s ease;
 }
 
-/*
-.gametime,
-.options,
-.score,
-.hint {
-    margin: 0;
-    padding: 0;
-}
-*/
-
-.intro {
-    transition: opacity 0.5s ease;
+h1 {
+	font-size: 3.25em;
+	font-family: 'Paytone One', sans-serif;
 }
 
-/*CONTAINS UNDERSCORES, INPUT, & HEADER*/
-.container{
-    float: right;
-    position: static;
-    opacity: 0;
-    transition: opacity 0.5s ease 0.5s;
+p {
+	padding: 0;
+	margin: 0;
 }
 
-
-
-.underscores{
-    top: 300px;
-    right: 160px;
-    bottom: 70px;
-    position: absolute;
-    transition: opacity 0.5s ease 0.5s;
+div{
+	text-align: center;
+	width: 100%;
 }
 
-/*Text input box*/
-input{
-    right: 100px;
-    bottom: 250px;
-    position: absolute;
-    transition: opacity 0.5s ease 0.5s;
+.head {
+	margin-bottom: 20px;
 }
 
-/*Game header w/text box*/
-.gametime{
-    margin-top: -300px;
-    transition: opacity 0.5s ease 0.5s;
+.center {
+	margin: 0 auto;
+	height: 400px;
+	width: 100%;
 }
 
-
-.containerBoard{
-    position: absolute;
-    top: 0;
-    padding: 20px;
-    left: 120px;
-    font-size: 20px;
-    font-weight: bold;
-    transition: opacity 0.5s ease 0.5s;
+.guessBox {
+	font-family: 'Roboto', sans-serif;
+	display: inline-block;
+	float: left;
+	margin: 0 auto;
+	width: 100%;
+	height: 400px;
+	background-color: rgba(255, 255, 255, 0.4);
 }
 
-.hint{
-    font-weight: bold;
+#guessWord {
+	padding-top: 40px;
+	font-size: 40px;
+	height: 20%;
 }
 
-
-#hint{
-    position: absolute;
-    top: 200px;
-    left: 100px;
-    opacity: 0;
+#category {
+	height: 20%;
+	font-size: 24px;
 }
 
-div.fadeOut{
-    opacity: 0;
-    pointer-events: none;
+#triesLeft {
+	margin-top: 10px;
+	margin-bottom:10px;
+	padding-bottom: 40px;
+	font-size: 24px;
+	height: 10%;
 }
 
-div.fadeIn{
-    opacity: 1;
-    pointer-events: all;
+#winLose{
+	margin-top: 10px;
+	height: 20%;
+	font-size: 40px;
+	font-weight: bold;
 }
 
-#guessForm {
-    margin: 0;
-    padding: 0;
-    position: relative;
+#letters {
+	font-family: 'NTR', sans-serif;
+	font-size: 14px;
+	height: 50px;
+	width: 100%;
+	padding-top: 10px;
+	margin: 5px 0 auto;
+	clear: left;
 }
 
+button {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 20px;
+	border: none;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: navy;
+	color: white;
+	padding: 0;
+	transition: all 0.5s ease
+}
 
-    
+button:hover{
+	background-color: rgba(255, 215, 233, 0.3);
+	border: 1px solid navy;
+	cursor: pointer;
+}
+
+button:disabled{
+	background-color: rgba(255, 215, 233, 0.3);
+	border: 1px solid navy;
+}

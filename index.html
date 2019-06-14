@@ -22,55 +22,86 @@
         <br>
         <img id=mainPic src="https://source.unsplash.com/1600x900/?summer" width="50%">
     </div>
-</div>
+</div> 
 
     <!--INTRO BUTTON-->
     <div class="game">
         <button>Let's Play!</button>
     </div>
 
+
     <!--GAME-->
-<div class="container">
-    <div class="gametime">
-        <header>Can you guess the summer word?</header>
-    </div>
-    <input type="text">
+	<div class="container">
 
+        <div class="head"> <h1>Can you guess the word?</h1></div>
+        <h2>Press any letter to begin!</h2>
 
-    <!--WORD OPTIONS-->
-    <div class="underscores">_ _ _ _ _</div>
+		<div class="center">
 
-    <!--SCOREBOARD-->
-<div class="containerBoard">
-    <div class="rightGuess">Wins:</div>
-    <div class="wrongGuess">Loss:</div>
-    <div class="guessesLeft"># of Guesses Left:</div>
-</div>
-    
-    
-    <!--SCOREBOARD
-    <div class="score">
-        <p># of guesses left:</p>
-        <p>Wins:</p>
-        <p>Loss</p>
-    </div>
-    -->
+			<div class="guessBox">
 
-    <!--HINT BOX-->
-    <textbox id="hintBox">
-        <h2 class="hint">Hint:</h2>
-            <p id="summer">One of four seasons...</p>
-            <p id="beach">Where the sand is...</p>
-            <p id="shorts">Outerwear...</p>
-            <p id="swimsuit">Waterproof "skin"</p>
-            <p id="sun">Hot natural orb...</p>
-            <p id="sandals">Footwear</p>
-            <p id="sup">Child of surfing and kayaking...</p>
-            <p id="biking">Two wheeled transportation</p>
-            <p id="diving">Leap into the water head first...</p>
-            <p id="tanning">Adding glow to yourself...</p>
-</div>
-    <script src="game.js"></script>   
+				<div id="guessWord"> 
+
+				</div>
+
+				<div id="category">
+
+				</div>
+
+                <div id="wins">
+                    <h2>Wins: </h2>
+                    <p>0</p>
+                </div>
+
+                <div id="loss">
+                    <h2>Loss: </h2>
+                    <p>0</p>
+                </div>
+
+                <div id="triesLeft">
+				
+				</div>
+
+				<div id="winLose">
+					
+				</div>
+
+			</div>
+		</div>
+		
+		<div id="letters">
+			<p><strong>Choose a letter:</strong><br></p>
+			<button>A</button>
+			<button>B</button>
+			<button>C</button>
+			<button>D</button>
+			<button>E</button>
+			<button>F</button>
+			<button>G</button>
+			<button>H</button>
+			<button>I</button>
+			<button>J</button>
+			<button>K</button>
+			<button>L</button>
+			<button>M</button>
+			<button>N</button>
+			<button>O</button>
+			<button>P</button>
+			<button>Q</button>
+			<button>R</button>
+			<button>S</button>
+			<button>T</button>
+			<button>U</button>
+			<button>V</button>
+			<button>W</button>
+			<button>X</button>
+			<button>Y</button>
+			<button>Z</button>
+
+		</div>
+
+	</div>
+    <script src="/assets/javascript/game.js"></script>   
     
 </body>
 </html>
