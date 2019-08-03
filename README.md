@@ -6,4 +6,5 @@
 ##Couldn't remember how to get the scoreboard working.
 
 [GitHub] https://github.com/JKGills12/Word-Guess-Game.git
+
 [Word Guess Game] https://jkgills12.github.io/Word-Guess-Game/
