@@ -14,13 +14,13 @@ cd your way into the assets folder, then make three additional folders: javascri
 
 In the javascript folder, make a file called game.js. Use the src attribute of the script tag to link to this file, rather than embedding the code directly in your HTML document. In the css folder, make a file called style.css. Also in the css folder, make a file called reset.css. Paste into it the code from the Meyerweb reset stylesheet. If you opt to use Bootstrap instead of writing your own CSS, skip this step, and simply include a link to Bootstrap via CDN. In the images folder, save whatever images you plan on using.
 
-├── assets
-| ├── css
-| | └── style.css
-| ├── images
-| └── javascript
-| └── game.js
-└── index.html
+├── assets <br/>
+| ├── css <br/>
+| | └── style.css <br/>
+| ├── images <br/>
+| └── javascript <br/>
+| └── game.js <br/>
+└── index.html <br/>
 
 Push the above changes to GitHub.
 
